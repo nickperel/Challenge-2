@@ -50,8 +50,20 @@ header h1 {
 #about {
     height: 300px;
     margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-title, #work-title {
+    padding: 40px;
+    align-content: center;
 }
 
 #work {
     height: 500px;
+    display: flex;
+}
+
+.work-img {
+    flex-grow: 4;
 }
