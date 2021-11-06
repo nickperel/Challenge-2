@@ -54,7 +54,7 @@ header h1 {
     justify-content: space-around;
 }
 
-#about-title, #work-title {
+#about-title, #work-title, #contact-title {
     padding: 40px;
     align-content: center;
 }
@@ -64,6 +64,6 @@ header h1 {
     display: flex;
 }
 
-.work-img {
-    flex-grow: 4;
+.work-img1 {
+    flex-grow: 3;
 }
