@@ -39,11 +39,12 @@ header h1 {
 #header-img h2 {
     margin-right: 50px;
     color: orange;
+    background-color: rgba(52, 116, 52, 0.60);
     font-weight: bold;
     font-size: 40px;
 }
 
-#about {
+#about, #contact {
     height: 300px;
     display: flex;
     justify-content: space-evenly;
@@ -67,10 +68,15 @@ header h1 {
     align-items: center;
 }
 
-#work-imgs-container {
+#work-imgs-container, #contact-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: baseline;
+}
+
+#work-main-img {
+    width: 100%;
 }
 
 .big-box {
@@ -110,6 +116,6 @@ header h1 {
     width: 8px;
 }
 
-#work-main-img {
-    width: 100%;
-}
+/* .contact-content {
+
+} */
