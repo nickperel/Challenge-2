@@ -38,20 +38,22 @@ header h1 {
 
 #header-img h2 {
     margin-right: 50px;
-    color: orchid;
-    background-color: palegreen;
+    color: orange;
+    font-weight: bold;
+    font-size: 50px;
 }
 
-#work img {
+/* #work img {
     width: 500px;
     height: 300px;
-}
+} */
 
 #about {
     height: 300px;
     margin: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #about-title, #work-title, #contact-title {
@@ -59,11 +61,24 @@ header h1 {
     align-content: center;
 }
 
+.about-p {
+    width: 900px;
+}
+
 #work {
-    height: 500px;
+    height: 300px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .work-img1 {
-    flex-grow: 3;
+    width: 35%;
+}
+
+.column {
+    height: 75%;
+    background-color: yellow;
+    width: 8px;
 }
