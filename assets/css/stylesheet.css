@@ -119,6 +119,11 @@ header h1 {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 32px;
+    text-decoration-color: lime;
+}
+
+.pic-label h3 {
+    color: orange;
 }
 
 .half-box {
