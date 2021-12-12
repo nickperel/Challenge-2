@@ -17,7 +17,6 @@ header {
     background-color: orange;
     display: flex;
     justify-content: space-between;
-    display: flex;
 }
 
 header nav {
@@ -27,14 +26,18 @@ header nav {
     justify-content: space-around;
     align-items: center;
     font-family: fantasy;
-    font-size: 20px;
+    font-size: 28px;
+    margin-right: 55px;
 }
 
 header h1 {
-    margin-left: 50px;
-    font-size: 43px;
+    margin: 30px;
+    font-size: 55px;
     font-family: fantasy;
     padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #header-img {
@@ -67,8 +70,10 @@ header h1 {
     padding: 40px;
     text-align: center;
     width: 120px;
-    font-size: 28px;
+    font-size: 50px;
     font-family: fantasy;
+    display: flex;
+    justify-content: center;
 }
 
 .about-p {
@@ -95,6 +100,10 @@ header h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
+}
+
+.contact-content, .contact-phone {
+    font-size: 25px;
 }
 
 #work-main-img {
