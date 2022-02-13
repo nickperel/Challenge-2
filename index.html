@@ -8,6 +8,8 @@
     <meta name="author" content="name">
     <meta name="description" content="description here">
     <meta name="keywords" content="keywords,here">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="./assets/css/stylesheet.css" type="text/css">
 </head>
 
@@ -19,7 +21,7 @@
         <nav>
             <a href="#about">About Me</a>
             <a href="#work">My Work</a>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact-me">Contact Me</a>
         </nav>
     </header>
 
@@ -60,9 +62,16 @@
             <div class="column"></div>
             <div id="work-imgs-container" class="main-section-content">
                 <a href="https://ahoward21.github.io/pokemon-search/" id="work-main-img">
-                    <div class="big-box">
+                    <div class="big-box-1">
                         <div class="pic-label">
                             <h3>Poké-Find Website</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://sneaker-sniper.herokuapp.com/" id="work-main-img">
+                    <div class="big-box-2">
+                        <div class="pic-label">
+                            <h3>Sneaker Sniper Website</h3>
                         </div>
                     </div>
                 </a>
@@ -98,24 +107,19 @@
                 
         </section>
 
-        <footer id="contact">
-            <h2 id="contact-title">Contact Info</h2>
-            <div class="column"></div>
-            <div id="contact-container" class="main-section-content">
-                <div class="contact-content">
-                    <a href="mailto:nickperel@live.com">nickperel@live.com</a>
-                </div>
-                <div class="contact-content">
-                    <a href="https://github.com/nickperel">GitHub</a>
-                </div>
-                <div class="contact-content">
-                    <a href="https://www.linkedin.com/in/nicholas-perel-201983176/">LinkedIn</a>
-                </div>
-                <div class="contact-phone">
-                    <p>777-777-7777</p>
-                </div>
-            </div>
-        </footer>
+        <div class="footer-basic" id="contact-me">
+            <footer>
+              <div class="column"></div>
+                <div class="social"><a href="https://www.instagram.com/nickperel/"><i class="icon ion-social-instagram"></i></a><a href="https://www.linkedin.com/in/nicholas-perel-201983176/"><i class="icon ion-social-linkedin"></i></a><a href="https://github.com/nickperel"><i class="icon ion-social-github"></i></a></div>
+                <ul class="list-inline">
+                    <li><a href="mailto:nickperel@live.com">Email</a></li>
+                    <br>
+                    <li>Cell: 732-690-2562</li>
+                </ul>
+                <p class="copyright">Perel's Professional Portfolio © 2022</p>
+                
+            </footer>
+        </div>
         
     </main>
 </body>
